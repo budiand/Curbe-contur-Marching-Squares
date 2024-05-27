@@ -1,6 +1,6 @@
 # tema1 Desenarea paralelă de curbe contur folosind algoritmul Marching Squares
 
-    Implementarea constă în paralelizarea functiei seriale rescale_image 
+Implementarea constă în paralelizarea functiei seriale rescale_image 
 care are ca rol scalarea imaginilor ce depasesc dimensiunea dată de 2048x2048.
 Pentru a obține paralelizarea s-au realizat următorii pași, respectiv modificări:
     1) Identificarea porțiunii de paralelizat din cadrul funcției:
